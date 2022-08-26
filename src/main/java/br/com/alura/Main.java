@@ -24,6 +24,7 @@ public class Main {
 
         //printando somente os métodos da classe mais utilizado
         for (Method metodoDaClasseProduto : Produto.class.getDeclaredMethods()) {
+            System.out.println("Printei para para ir em uma branch nova");
             System.out.println(metodoDaClasseProduto);
         }
 
